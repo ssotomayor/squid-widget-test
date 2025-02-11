@@ -1,9 +1,9 @@
-import { SquidWidgetWrapper } from "@/app/squid-widget-wrapper";
+import { SquidWidgetWrapperDynamic } from "@/app/squid-widget-wrapper-dynamic";
 
 export default function Home() {
   return (
     <main className="flex flex-col gap-4 row-start-2 items-center sm:items-start">
-      <SquidWidgetWrapper />
+      <SquidWidgetWrapperDynamic />
     </main>
   );
 }
